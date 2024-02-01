@@ -1,0 +1,150 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 100%;
+}
+
+.cabelho {
+    background-color: #9b9393;
+    color: white;
+    padding: 10px;
+}
+h1{
+    font-family: "Instrument", serif;
+    color: #151615;
+    font-size: 25px;
+}
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu li {
+    margin: 0 15px;
+    font-family: "Instrument", sans-serif;
+    background-color: #bdbdbd;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.entrar {
+    background-color: #bdbdbd;
+    color: rgb(29, 25, 25);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+#buscar {
+    display: flex;
+    align-items: center;
+}
+
+#pesquisar {
+    margin-left: 5px;
+    padding: 5px;
+}
+.icone{
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.conteudo {
+    padding: 20px;
+}
+
+.conteudo-principal {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-width: 5em;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#787272 16.62% , #D3D3D3 85.61%);
+}
+
+.conteudo-principal-texto {
+    max-width: 5000%;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: rgb(255, 251, 251);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.segundo-conteudo,
+.terceiro-conteudo {
+    margin-top: 20px;
+    background: linear-gradient(#6f7275 16.62%, #5d6063 85.61%);
+}
+
+.text,
+.text2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+#contato {
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome,
+.email,
+.senha {
+    margin-bottom: 5px;
+}
+.email{
+    justify-content: space-around;
+}
+.botao {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer picture {
+    margin-top: 10px;
+}
+
+footer img {
+    margin: 0 10px;
+}
